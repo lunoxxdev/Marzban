@@ -78,7 +78,7 @@ def cleanup_messages(chat_id: int) -> None:
 @bot.message_handler(commands=['start', 'help'], is_admin=True)
 def help_command(message: types.Message):
     return bot.reply_to(message, """
-{user_link} Welcome to Marzban Telegram-Bot Admin Panel.
+{user_link} Welcome EdyFler Telegram-Bot Admin Panel.
 Here you can manage your users and proxies.
 To get started, use the buttons below.
 """.format(
